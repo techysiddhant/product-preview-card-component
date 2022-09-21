@@ -116,19 +116,8 @@ body {
     display: none;
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-    margin-top: 50px;
-    /* height: 300px; */
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
 @media screen and (max-width:624px) {
-    section {
+    body {
         margin: 30px 30px;
     }
     .desktop-img {
