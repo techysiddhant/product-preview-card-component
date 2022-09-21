@@ -8,4 +8,32 @@
 body {
     /* font-family: 'Fraunces', serif; */
     font-family: 'Montserrat', sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.product-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 450px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.img {
+    height: 450px;
+}
+
+.product-cart .img img {
+    width: 300px;
+}
+
+.content {
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    padding: 30px;
 }
